@@ -1,0 +1,60 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+.bord
+{
+    border: 1px solid black;
+    width: 260px;
+    height: 270px;
+    margin-left: 26%;
+    border-radius: 10px;
+    background-color: rgb(190, 184, 184);
+}
+.prvH1
+{
+    margin-top: 25px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.prvP
+{
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    color: rgb(78, 78, 78);
+    margin-top: 15px;
+}
+#typeNumber
+{
+    width: 120px;
+    height: 7px;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    margin-left: 25%;
+    font-size: 7px;
+}
+#btn
+{
+    margin: 10px;
+    width: 52px;
+    height: 14px;
+    margin-left: 40%;
+    font-size: 8px; 
+}
+#lab
+{
+    font-size: 10px;
+    margin-left: 70%;
+    color: rgb(49, 49, 49);
+}
+#lab2
+{
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 2px;
+}

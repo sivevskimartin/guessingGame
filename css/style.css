@@ -5,56 +5,59 @@ body
 .bord
 {
     border: 1px solid black;
-    width: 260px;
-    height: 270px;
-    margin-left: 26%;
+    width: 660px;
+    height: 670px;
+    margin-left: 27%;
     border-radius: 10px;
     background-color: rgb(190, 184, 184);
 }
 .prvH1
 {
-    margin-top: 25px;
-    font-size: 12px;
+    margin-top: 65px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     color: white;
 }
 .prvP
 {
-    font-size: 8px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     color: rgb(78, 78, 78);
-    margin-top: 15px;
+    margin-top: 25px;
 }
 #typeNumber
 {
-    width: 120px;
-    height: 7px;
+    width: 240px;
+    height: 22px;
     display: flex;
     justify-content: center;
-    margin-top: 14px;
-    margin-left: 25%;
-    font-size: 7px;
+    margin-top: 40px;
+    margin-left: 32%;
+    font-size: 17px;
+    border-radius: 5px;
 }
 #btn
 {
-    margin: 10px;
-    width: 52px;
-    height: 14px;
-    margin-left: 40%;
-    font-size: 8px; 
+    margin: 16px;
+    width: 112px;
+    height: 28px;
+    margin-left: 43%;
+    font-size: 19px; 
+    border-radius: 8px;
 }
 #lab
 {
-    font-size: 10px;
+    font-size: 28px;
     margin-left: 70%;
     color: rgb(49, 49, 49);
+    position: relative;
+
 }
 #lab2
 {
-    font-size: 12px;
+    font-size: 32px;
     position: absolute;
-    margin-top: 5px;
     margin-left: 2px;
 }

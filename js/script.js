@@ -1,7 +1,6 @@
 var randNum = Math.floor(Math.random()*100+1);
 let guesses = 9;
-console.log(randNum);
-console.log(guesses);
+
 document.getElementById("btn").onclick = function() {
 
         document.getElementById("lab2").innerHTML = guesses;

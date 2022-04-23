@@ -8,10 +8,12 @@ document.getElementById("btn").onclick = function() {
         if(guesses==1)
         {
             alert("ИЗГУБИВТЕ ПРОБАЈТЕ УШТЕ ЕДНАШ...РЕФРЕШНЕТЕ ЈА СТРАНАТА");
+            
         }
         else if(guess==randNum)
         {
             alert("ЧЕСТИТКИ ПОГОДИВТЕ...ИГРАТА ЗАВРШИ");
+            location.reload();
         }
         else if(guess>randNum)
         {

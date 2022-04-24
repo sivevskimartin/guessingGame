@@ -14,10 +14,10 @@ document.getElementById("btn").onclick = function() {
 
         document.getElementById("lab2").innerHTML = guesses;
         let guess = document.getElementById("typeNumber").value;
-        if(guesses==1)
+        if(guesses==0)
         {
-            alert("ИЗГУБИВТЕ ПРОБАЈТЕ УШТЕ ЕДНАШ...РЕФРЕШНЕТЕ ЈА СТРАНАТА");
-            
+            alert("ИЗГУБИВТЕ ПРОБАЈТЕ УШТЕ ЕДНАШ");
+            location.reload();
         }
         else if(guess==randNum)
         {
